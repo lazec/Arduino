@@ -33,6 +33,6 @@ void loop(){
   } else if (dist_cm<30){
     PIEZO_BUZZ(1500, 130, 0);
   } else {
-    PIEZO_BUZZ(0, 0, 0);
+    PIEZO_BUZZ(0, 0, 0); 
   }
 }
